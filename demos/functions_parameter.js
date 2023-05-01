@@ -1,5 +1,6 @@
-function display(parameter1) {
-    console.log(parameter1);
-    
+function mulNumber(a, b) {
+  return a * b;
 }
-display
+
+var res = mulNumber(10, 20);
+console.log(res);
