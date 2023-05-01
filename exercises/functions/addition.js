@@ -1,6 +1,9 @@
-function addNumber(a, b) {
-  return a + b;
+function addNumber(num1,num2) {
+    
+  return num1 + num2;
 }
 
-var result = addNumber(12, 20);
-console.log(result);
+var num3 = addNumber(12, 20);
+console.log(num3);
+
+
