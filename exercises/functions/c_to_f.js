@@ -5,4 +5,4 @@ return fahrenheitTempature;
  }
  let currentTemp = 100;
 let fahrenheitTemp=convertCtoF(currentTemp)
-console.log(fahrenheitTemp);
+console.log(fahrenheitTemp.toFixed(2));
