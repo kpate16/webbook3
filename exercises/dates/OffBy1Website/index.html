@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OffBy1Website</title>
+</head>
+
+<body>
+
+    <input type="date" name="myDate" id="myDate">
+    <button id="dateBtn" onclick="handledate()">Date is!</button>
+    <p id="messagepara"></p>
+    <script>
+        function handledate() {
+            const myDate = document.getElementById("myDate");
+            const messagepara = document.getElementById("messagepara");
+            const dateBtn = document.getElementById("dateBtn");
+
+            let date = new Date(myDate.value);
+            messagepara.innerText = `the date is ${date.toDateString()}`;
+
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
