@@ -1,4 +1,4 @@
-# Cake Shopee
+# Vacation Resort
 
 - Ishaan Palace Resort website is developed for online vacation booking . There are multiple options available for room booking like King size, Queen size, 2 bedroom suite.
 There are discounts available for militory and premium members. 
