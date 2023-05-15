@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Ishaan Palace Resort</title>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-custom navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Ishaan Palace Resort</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="rooms.html">Guest Rooms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="dining.html">Dining</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class=" m-5">
+        <div class="row">
+            <div class="col col-md-9">
+                <div class="header-lable">
+                    <h2> Review your Booking</h2>
+                </div>
+                <div class="transparant-card">
+                    <form>
+                        <div class="row">
+                            <div class=" col-md-6">
+                                <label for="checkindate">Check-in Date</label>
+                                <input type="date" name="" id="checkindate" class="form-control" />
+                            </div>
+                            <div class=" col-md-6">
+                                <label for="checkoutdate">Check-out Date</label>
+                                <input type="date" name="" id="checkoutdate" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class=" col-md-6">
+                                <label for="adults">No. of Adults</label>
+                                <input type="number" name="" id="adults" class="form-control" min="0" />
+                            </div>
+                            <div class=" col-md-6">
+                                <label for="childs">No. of Childrens (AGE: 0-12)</label>
+                                <input type="number" name="" id="childs" class="form-control" min="0" />
+                            </div>
+                        </div>
+                        <hr>
+                        <fieldset>
+                            <legend> Room Type:</legend>
+                            <div class="row">
+                                <div class=" col-md-4">
+                                    <div class="card ">
+                                        <img src="./images/queen.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <label for="No">
+                                                    <input type="radio" id="queensize" name="size" checked>
+                                                    Queen Size
+                                                </label>
+                                            </h5>
+                                            <p class="card-text"> Max Occupancy: 5 (inc rollaway)</p>
+                                            <p class="card-text"> Regular Fair: $150</p>
+                                            <p class="card-text">Jun - Aug Per Night : $250</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-md-4">
+                                    <div class="card ">
+                                        <img src="./images/king.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <label for="No">
+                                                    <input type="radio" id="kingsize" name="size">
+                                                    King Size
+                                                </label>
+                                            </h5>
+                                            <p class="card-text"> Max Occupancy: 2</p>
+                                            <p class="card-text"> Regular Fair: $150</p>
+                                            <p class="card-text">Jun - Aug Per Night : $250</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-md-4">
+                                    <div class="card ">
+                                        <img src="./images/2bed.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <label for="No">
+                                                    <input type="radio" id="multibedsuite" name="size">
+                                                    2-Bedroom Suite
+                                                </label>
+                                            </h5>
+                                            <p class="card-text"> Max Occupancy: 6 (inc sofa) </p>
+                                            <p class="card-text"> Regular Fair: $210</p>
+                                            <p class="card-text">Jun - Aug Per Night : $350</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <hr>
+                        <div class="row">
+                            <div class=" col-md-4">
+                                <legend> Additional Services:</legend>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="lunchpackage">
+                                    <label class="form-check-label" for="lunchpackage">
+                                        Lunch & Breakfast ($20)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="transportation">
+                                    <label class="form-check-label" for="transportaiton">
+                                        Transportation ($20)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="spa">
+                                    <label class="form-check-label" for="spa">
+                                        Spa ($50)
+                                    </label>
+                                </div>
+                            </div>
+                            <div class=" col-md-4">
+                                <legend> Discounts:</legend>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="none"
+                                        required checked />
+                                    <label class="form-check-label" for="none"> None </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="militory" />
+                                    <label class="form-check-label" for="militory"> Militory (5%)</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="premiummember" required />
+                                    <label class="form-check-label" for="premiummember"> Primium Member (10%) </label>
+                                </div>
+
+                            </div>
+                            <div class=" col-md-4">
+                                <label for="outdate">Promocode</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" class="form-control">
+                                    <button type="button" class="btn btn-primary form-control input-group-text"
+                                        onclick="applyPromo()">Apply</button>
+                                </div>
+                                <label for="outdate">Discount : 5%</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class=" col-md-4 ">
+                            <button type="button" class="btn btn-primary " id="getEstimatedCost">Get
+                                rate</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="col col-md-3">
+                <div class="header-lable">
+                    <h2>Price Summary</h2>
+                </div>
+                <div class="transparant-card">
+                    <div class="mb-3 row">
+                        <legend class="col-sm-8 "> Price :</legend>
+                        <div class="col-sm-4">
+                            $ <lable id="price"></lable>
+                        </div>
+                        <legend for="price" class="col-sm-8 col-form-label">(1 Room * <lable id="totalStay"></lable>
+                            nights)</legend>
+
+                    </div>
+                    <div class="mb-3 row">
+                        <legend class="col-sm-8 "> Add Ons :</legend>
+                        <div class="col-sm-4">
+                            $ <lable id="addons"></lable>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <legend class="col-sm-8 ">Discounts :</legend>
+                        <div class="col-sm-4">
+                            - $ <lable id="discounts"></lable>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <legend class="col-sm-8 "> Taxes & Fees :</legend>
+                        <div class="col-sm-4">
+                            $ <lable id="taxes"></lable>
+                        </div>
+                        <div class=" row">
+                            <label for="" class="text-warning">flat 20 % on amt after discount</label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="mb-3 row">
+                        <legend class="col-sm-8 "> Total Cost :</legend>
+                        <div class="col-sm-4">
+                            $ <lable id="totalDue"></lable>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="" class="text-warning">Inclusive of all taxes.</label>
+                    </div>
+                </div>
+                <div class="transparant-card">
+                    <label for="name">Name:</label>
+                    <input type="text" name="" id="name" placeholder="Name" required="" class="form-control" />
+
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="" id="email" placeholder="E-Mail" required="" class="form-control" />
+
+                    <label for="contact">Contact:</label>
+                    <input type="number" name="" id="contact" placeholder="contact" required="" class="form-control" />
+
+                    <button type="button" class="btn btn-primary" style="margin-top:1em;" onclick="BookNow()">Book
+                        Now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scripts/main.js"></script>
+
+</html>
